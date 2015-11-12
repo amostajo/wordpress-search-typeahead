@@ -1,0 +1,22 @@
+{
+    "name": "amostajo/wordpress-search-typeahead",
+    "description": "Wordpress Search Typeahead Add-on for Wordpress Development Templates.",
+    "license": "MIT",
+    "keywords": ["wordpress","add-on","Typeahead","development","templates"],
+    "authors": [
+        {
+            "name": "Alejandro Mostajo",
+            "email": "amostajo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "amostajo/wordpress-plugin-core": ">=1.0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amostajo\\Wordpress\\TypeaheadAddon\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
