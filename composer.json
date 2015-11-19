@@ -14,8 +14,11 @@
         "amostajo/wordpress-plugin-core": ">=1.0.7"
     },
     "autoload": {
+        "files": [
+            "src/lib/functions.php"
+        ],
         "psr-4": {
-            "Amostajo\\Wordpress\\TypeaheadAddon\\": "src"
+            "Amostajo\\Wordpress\\TypeaheadAddon\\": "src/psr4"
         }
     },
     "minimum-stability": "dev"

@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-search-typeahead",
+  "version": "1.0.0",
+  "description": "Wordpress Development Templates Addon",
+  "author": "Alejandro Mostajo <amostajo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amostajo/wordpress-search-typeahead/issues"
+  },
+  "homepage": "https://github.com/amostajo/wordpress-search-typeahead",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.10.1"
+  }
+}

@@ -1,0 +1,12 @@
+<input type="text"
+    id="search-typeahead"
+    name="s"
+    placeholder="Search..."
+    class="default"
+    data-hint="1"
+    data-highlight="1"
+    data-source="<?php echo $source_url ?>"
+    data-template-empty="<?php echo $template_empty ?>"
+    data-template-suggestion="<?php echo $template_suggestion ?>"
+    data-onselect="1"
+/>

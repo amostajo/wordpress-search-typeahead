@@ -1,0 +1,18 @@
+{
+  "name": "amostajo/wordpress-search-typeahead",
+  "homepage": "https://github.com/amostajo/wordpress-search-typeahead",
+  "authors": [
+    "Alejandro Mostajo <amostajo@gmail.com>"
+  ],
+  "description": "Add-on for Wordpress Development Templates",
+  "keywords": [
+    "wordpress",
+    "addon"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typeahead.js": "~0.11.1",
+    "handlebars": "~4.0.4"
+  }
+}
