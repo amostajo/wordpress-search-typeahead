@@ -109,6 +109,7 @@ function filter_post ($post) {
     // Array is expected in return
     return $model->from_post( $post )->to_array();
 }
+```
 
 **FILTER**: `addon_typeahead_data`
 Filters final results. Receives the data as array and the search arguments (those used for WP_Query).
@@ -127,6 +128,7 @@ function filter_data ($data, $args) {
     // Array is expected in return
     return $data;
 }
+```
 
 ### Customization
 All views located at the `views` folder can be customized in your theme. Copy and paste them in your theme (same as you would do for plugin views) and modify them.
