@@ -8,17 +8,17 @@
  * @version 1.0.0
  */
 
-if ( !function_exists( 'typeahead_search_form' ) )
+if ( !function_exists( 'typeahead_search' ) )
 {
     /**
-     * Creates and displays typeahead search form.
+     * Creates and displays typeahead search form or input.
      * @since 1.0.0
      *
      * @param array $args Search args.
      *
      * @return void
      */
-    function typeahead_search_form( $args = [] )
+    function typeahead_search( $args = [] )
     {
         wp_enqueue_style( 'wp-typeahead' );
         wp_enqueue_script( 'wp-typeahead' );
@@ -53,7 +53,7 @@ if ( !function_exists( 'typeahead_get_view' ) )
     function typeahead_get_view( $template, $params = [], $replace_quotes = false )
     {
         // Get template
-        $theme_path = get_template_directory() . '/views/addons/typeahead/' . $template . 'php';
+        $theme_path = get_template_directory() . '/views/addons/typeahead/' . $template . '.php';
         $addon_path = __DIR__ . '/../psr4/views/addons/typeahead/' . $template . '.php';
         // Check path
         $path = is_readable( $theme_path )
