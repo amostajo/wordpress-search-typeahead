@@ -68,21 +68,21 @@ class Typeahead extends Addon
     {
         wp_register_script(
             'typeahead-all',
-            plugins_url( '../../assets/build/typeahead-all.min.js' , __FILE__ ),
+            asset_url( '../../assets/build/typeahead-all.min.js' , __FILE__ ),
             [ 'jquery' ],
             '1.0.0',
             true
         );
         wp_register_script(
             'wp-typeahead',
-            plugins_url( '../../assets/build/wp-typeahead.min.js' , __FILE__ ),
+            asset_url( '../../assets/build/wp-typeahead.min.js' , __FILE__ ),
             [ 'typeahead-all' ],
             '1.0.0',
             true
         );
         wp_register_style(
             'wp-typeahead',
-            plugins_url( '../../assets/build/wp-typeahead.min.css' , __FILE__ ),
+            asset_url( '../../assets/build/wp-typeahead.min.css' , __FILE__ ),
             [],
             '1.0.0'
         );
